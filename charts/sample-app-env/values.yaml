@@ -8,7 +8,7 @@ image:
   repository: quay.io/johankok/sample-app-env
   pullPolicy: Always
   # Overrides the image tag whose default is the chart appVersion.
-  tag: ""
+  tag: "v0.1.0"
 
 imagePullSecrets: []
 nameOverride: ""
