@@ -2,6 +2,18 @@ apiVersion: v1
 entries:
   sample-app-env:
   - apiVersion: v2
+    appVersion: v0.1.5
+    created: "2023-10-23T14:21:54.842325583Z"
+    description: A sample app that prints all environment variables
+    digest: c31297cf4d0428e2630208de44a301c5839a57136382637158ae8e2428ad2f08
+    maintainers:
+    - name: johankok
+    name: sample-app-env
+    type: application
+    urls:
+    - https://github.com/johankok/charts/releases/download/sample-app-env-0.1.5/sample-app-env-0.1.5.tgz
+    version: 0.1.5
+  - apiVersion: v2
     appVersion: v0.1.4
     created: "2023-09-21T09:35:37.876197894Z"
     description: A sample app that prints all environment variables
@@ -73,4 +85,4 @@ entries:
     urls:
     - https://github.com/johankok/charts/releases/download/sample-app-env-0.0.1/sample-app-env-0.0.1.tgz
     version: 0.0.1
-generated: "2023-09-21T09:35:37.876231294Z"
+generated: "2023-10-23T14:21:54.842348283Z"
